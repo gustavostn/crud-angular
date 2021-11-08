@@ -7,7 +7,7 @@ import { delay, first, tap } from 'rxjs';
 })
 export class CoursesService {
 
-  private readonly API = '/assets/mocks/mock-get-all-courses.json';
+  private readonly API = '/assets/mocks/mock-get-all-co2urses.json';
 
   constructor(private htppClient: HttpClient) { }
 
